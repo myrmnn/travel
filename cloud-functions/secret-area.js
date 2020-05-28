@@ -14,7 +14,7 @@ if(event.body){
 if(body.password == "javascript"){
     callback(null, {
         statusCode: 200,
-        body: "Welcome to the secret area!"
+        body: secretContent
     })
 } else{
     callback(null, {
