@@ -4,6 +4,18 @@ import MobileMenu from './modules/mobile-menu'
 import RevealOnScroll from './modules/reveal-on-scroll'
 import StickyHeader from './modules/sticky-header'
 import ClientArea from './modules/ClientArea'
+
+//React
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+//Import component
+
+import MyAmazingComponent from './modules/MyAmazingComponent';
+
+ReactDOM.render(<MyAmazingComponent />, document.querySelector('#my-react-example'))
+
 new ClientArea();
 new StickyHeader();
 new RevealOnScroll(document.querySelectorAll('.feature-item'), 75);
