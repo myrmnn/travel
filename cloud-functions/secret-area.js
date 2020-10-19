@@ -2,7 +2,6 @@ exports.handler = function (event, context, callback) {
     const secretContent = `
     <h3>Welcome to the secret area!</3>
     <p>The secret is that Dublin is the cutest cat in the entire world.</p>
-    <img src="dublin.jpeg" alt="dublin the cat" />
     `
 let body
 
